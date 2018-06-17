@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<h1>Create a New Resource</h1>
+
+<form action="/resources" method="POST">
+    <input type="text" name="name" placeholder="Name">
+    <input type="text" name="image" placeholder="Image Url">
+    <button>Submit</button>
+</form>
+
+<p><a href="/resources">Back</a></p>
+
+<% include partials/footer %>
