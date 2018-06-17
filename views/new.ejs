@@ -1,13 +1,41 @@
 <% include partials/header %>
 
-<h1>Create a New Resource</h1>
+<div class="uk-container">
 
-<form action="/resources" method="POST">
-    <input type="text" name="name" placeholder="Name">
-    <input type="text" name="image" placeholder="Image Url">
-    <button>Submit</button>
+<% include partials/navbar %>
+
+<form action="/resources" method="POST" style="margin-top: 20px; margin-bottom: 50px;">
+        <fieldsetfields  class="uk-fieldset">
+
+       <legend class="uk-legend">Create a New Resource</legend>
+
+       <div class="uk-margin">
+           <input class="uk-input uk-form-width-large" name="name" placeholder="Name">
+       </div>
+
+       <div class="uk-margin">
+            <input class="uk-input uk-form-width-large" name="image" placeholder="Image Url">
+        </div>
+
+       <!-- <div class="uk-margin">
+           <select class="uk-select">
+               <option>Option 01</option>
+               <option>Option 02</option>
+           </select>
+       </div>
+
+       <div class="uk-margin">
+           <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+       </div> -->
+
+       <button class="uk-button uk-button-default">Submit</button>
+       <a class="uk-button uk-button-default" href="/resources">Cancel</a>
+            
+       </div>
+   </fieldset>
 </form>
 
-<p><a href="/resources">Back</a></p>
+
+</div>
 
 <% include partials/footer %>
