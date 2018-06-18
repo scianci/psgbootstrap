@@ -7,15 +7,12 @@ app.set("view engine", "ejs");
 
 //temp array until we have a db
 var resources = [
-    {name: "Salmon Creek", image: "https://pixabay.com/get/ea36b70c2ff71c22d2524518b7444795ea76e5d004b014439cf1c378a3e5b6_340.jpg"},
-    {name: "Home Depot", image: "https://pixabay.com/get/e837b10628f4093ed1584d05fb1d4e97e07ee3d21cac104497f9c07ba6e9bdbb_340.jpg"},
-    {name: "Cheesecake Factory", image: "https://pixabay.com/get/e137b10c21f41c22d2524518b7444795ea76e5d004b014439cf1c378a3e5b6_340.jpg"},
-    {name: "Salmon Creek", image: "https://pixabay.com/get/ea36b70c2ff71c22d2524518b7444795ea76e5d004b014439cf1c378a3e5b6_340.jpg"},
-    {name: "Home Depot", image: "https://pixabay.com/get/e837b10628f4093ed1584d05fb1d4e97e07ee3d21cac104497f9c07ba6e9bdbb_340.jpg"},
-    {name: "Cheesecake Factory", image: "https://pixabay.com/get/e137b10c21f41c22d2524518b7444795ea76e5d004b014439cf1c378a3e5b6_340.jpg"},
-    {name: "Salmon Creek", image: "https://pixabay.com/get/ea36b70c2ff71c22d2524518b7444795ea76e5d004b014439cf1c378a3e5b6_340.jpg"},
-    {name: "Home Depot", image: "https://pixabay.com/get/e837b10628f4093ed1584d05fb1d4e97e07ee3d21cac104497f9c07ba6e9bdbb_340.jpg"},
-    {name: "Cheesecake Factory", image: "https://pixabay.com/get/e137b10c21f41c22d2524518b7444795ea76e5d004b014439cf1c378a3e5b6_340.jpg"}
+    {name: "Salmon Creek", image: "http://via.placeholder.com/350x150"},
+    {name: "Home Depot", image: "http://via.placeholder.com/350x150"},
+    {name: "Cheesecake Factory", image: "http://via.placeholder.com/350x150"},
+    {name: "Salmon Creek", image: "http://via.placeholder.com/350x150"},
+    {name: "Home Depot", image: "http://via.placeholder.com/350x150"},
+    {name: "Cheesecake Factory", image: "http://via.placeholder.com/350x150"}
 ]
 
 //route for homepage
